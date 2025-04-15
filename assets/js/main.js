@@ -198,4 +198,330 @@
 				lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Asegura que lastScrollTop no sea negativo
 			});
 
+	const productos = [
+		{ 
+			imagen: 'images/N001.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			precioAnterior: 120,
+			tallas: [39, 40, 41, 42, 43],
+		},
+		{ 
+			imagen: 'images/N002.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N003.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N004.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N005.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N006.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N007.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N008.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39], 
+		},
+		{ 
+			imagen: 'images/N009.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39], 
+		},
+		{ 
+			imagen: 'images/N010.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39], 
+		},
+		{ 
+			imagen: 'images/N011.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39], 
+		},
+		{ 
+			imagen: 'images/N012.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/N013.jpg', 
+			estilo: 'style1', 
+			titulo: 'New Balance', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39], 
+		},
+	];
+
+	const productosDamas = [
+		{ 
+			imagen: 'images/AD001.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			precioAnterior: 120,
+			tallas: [39, 40, 41, 42, 43],
+		},
+		{ 
+			imagen: 'images/AD002.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/AD003.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/AD004.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/AD005.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		}
+		
+	];
+	const productosCaballeros = [
+		{ 
+			imagen: 'images/A001.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			precioAnterior: 120,
+			tallas: [39, 40, 41, 42, 43],
+		},
+		{ 
+			imagen: 'images/A002.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/A003.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		{ 
+			imagen: 'images/A004.jpg', 
+			estilo: 'style1', 
+			titulo: 'Falcon AD', 
+			descripcion: 'Zapatilla cómoda y moderna',
+			tipo: 'Dama', // o 'Caballero'
+			precio: 89.99,
+			tallas: [36, 37, 38, 39],
+		},
+		
+	];
+	// Mostrar productos generales
+	const container = document.getElementById('tilesContainer');
+	if (container) {
+		productos.forEach(producto => {
+			container.innerHTML += `
+			<article class="${producto.estilo}">
+				<span class="image">
+				<img src="${producto.imagen}" alt="${producto.titulo}" />
+				</span>
+				<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}.">
+				<div class="content">
+					<p>${producto.descripcion}</p>
+				</div>
+				</a>
+				<br>
+				<div class="content">
+					<h2>${producto.titulo}</h2>
+					<p>
+						<strong>Precio: </strong> 
+						<span class="precio-actual">s/.${producto.precio}</span> 
+						<del class="precio-anterior">s/.${producto.precioAnterior ?? ''}</del>
+					</p>
+					<p><strong>Tallas: </strong> ${producto.tallas.join(', ')}</p>
+					<div class="boton-comprar-container">
+						<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}." 
+							target="_blank" 
+							class="enlace-comprar">
+							<button class="btn-comprar">
+								<i class="fab fa-whatsapp"></i> Comprar
+							</button>
+						</a>
+					</div>
+				</div>
+			</article>
+			`;
+		});
+	}
+
+	// Mostrar productos para damas
+	const containerDamas = document.getElementById('damasContainer');
+	if (containerDamas) {
+		productosDamas.forEach(producto => {
+			containerDamas.innerHTML += `
+			<article class="${producto.estilo}">
+				<span class="image">
+				<img src="${producto.imagen}" alt="${producto.titulo}" />
+				</span>
+				<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}.">
+				<div class="content">
+					<p>${producto.descripcion}</p>
+				</div>
+				</a>
+				<br>
+				<div class="content">
+					<h2>${producto.titulo}</h2>
+					<p>
+						<strong>Precio: </strong> 
+						<span class="precio-actual">s/.${producto.precio}</span> 
+						<del class="precio-anterior">s/.${producto.precioAnterior ?? ''}</del>
+					</p>
+					<p><strong>Tallas: </strong> ${producto.tallas.join(', ')}</p>
+					<div class="boton-comprar-container">
+						<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}." 
+							target="_blank" 
+							class="enlace-comprar">
+							<button class="btn-comprar">
+								<i class="fab fa-whatsapp"></i> Comprar
+							</button>
+						</a>
+					</div>
+				</div>
+			</article>
+			`;
+		});
+	}
+
+	// Mostrar productos para caballeros
+	const containerCaballeros = document.getElementById('caballerosContainer');
+	if (containerCaballeros) {
+		productosCaballeros.forEach(producto => {
+			containerCaballeros.innerHTML += `
+			<article class="${producto.estilo}">
+				<span class="image">
+				<img src="${producto.imagen}" alt="${producto.titulo}" />
+				</span>
+				<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}.">
+				<div class="content">
+					<p>${producto.descripcion}</p>
+				</div>
+				</a>
+				<br>
+				<div class="content">
+					<h2>${producto.titulo}</h2>
+					<p>
+						<strong>Precio: </strong> 
+						<span class="precio-actual">s/.${producto.precio}</span> 
+						<del class="precio-anterior">s/.${producto.precioAnterior ?? ''}</del>
+					</p>
+					<p><strong>Tallas: </strong> ${producto.tallas.join(', ')}</p>
+					<div class="boton-comprar-container">
+						<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}." 
+							target="_blank" 
+							class="enlace-comprar">
+							<button class="btn-comprar">
+								<i class="fab fa-whatsapp"></i> Comprar
+							</button>
+						</a>
+					</div>
+				</div>
+			</article>
+			`;
+		});
+	}
+	
+	
+
 })(jQuery);
