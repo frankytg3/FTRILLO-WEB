@@ -197,6 +197,27 @@
 		
 				lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Asegura que lastScrollTop no sea negativo
 			});
+			
+		document.getElementById('contact-form').addEventListener('submit', function(event) {
+			event.preventDefault();
+			
+			// Reemplaza estos valores con los tuyos
+			const serviceID = 'service_shgqovp';
+			const templateID = 'template_x5oulu7';
+			
+			// Asegúrate de que los nombres de los campos coincidan con las variables del template
+			// El formulario debe tener campos con name="name", name="email", name="message"
+			
+			emailjs.sendForm(serviceID, templateID, this)
+				.then(function(response) {
+					console.log('SUCCESS!', response.status, response.text);
+					alert('¡Mensaje enviado correctamente!');
+					document.getElementById('contact-form').reset();
+				}, function(error) {
+					console.log('FAILED...', error);
+					alert('Error al enviar el mensaje. Por favor, inténtalo de nuevo.');
+				});
+		});
 
 	const productos = [
 		{ 
