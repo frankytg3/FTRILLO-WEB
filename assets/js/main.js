@@ -202,8 +202,8 @@
 			event.preventDefault();
 			
 			// Reemplaza estos valores con los tuyos
-			const serviceID = 'service_shgqovp';
-			const templateID = 'template_x5oulu7';
+			const serviceID = 'service_wup6lav';
+			const templateID = 'template_y84bydj';
 			
 			// Asegúrate de que los nombres de los campos coincidan con las variables del template
 			// El formulario debe tener campos con name="name", name="email", name="message"
@@ -458,7 +458,7 @@
 				<span class="image">
 				<img src="${producto.imagen}" alt="${producto.titulo}" />
 				</span>
-				<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}.">
+				<a href="https://wa.me/51975294446?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}.">
 				<div class="content">
 					<p>${producto.descripcion}</p>
 				</div>
@@ -473,7 +473,7 @@
 					</p>
 					<p><strong>Tallas: </strong> ${producto.tallas.join(', ')}</p>
 					<div class="boton-comprar-container">
-						<a href="https://wa.me/51999999999?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}." 
+						<a href="https://wa.me/51975294446?text=Hola,%20estoy%20interesado%20en%20el%20modelo%20${encodeURIComponent(producto.titulo)}%20para%20${encodeURIComponent(producto.tipo)}." 
 							target="_blank" 
 							class="enlace-comprar">
 							<button class="btn-comprar">
