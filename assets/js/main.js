@@ -371,7 +371,7 @@
 			tipo: 'Dama', // o 'Caballero'
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		{ 
 			imagen: 'images/AD003.jpg', 
@@ -381,7 +381,7 @@
 			tipo: 'Dama', // o 'Caballero'
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		{ 
 			imagen: 'images/AD004.jpg', 
@@ -391,7 +391,7 @@
 			tipo: 'Dama', // o 'Caballero'
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		{ 
 			imagen: 'images/AD005.jpg', 
@@ -401,7 +401,7 @@
 			tipo: 'Dama', // o 'Caballero'
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		}
 		
 	];
@@ -425,7 +425,7 @@
 			tipo: 'Caballero', 
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		{ 
 			imagen: 'images/A003.jpg', 
@@ -435,7 +435,7 @@
 			tipo: 'Caballero', 
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		{ 
 			imagen: 'images/A004.jpg', 
@@ -445,7 +445,7 @@
 			tipo: 'Caballero', 
 			precio: 89.99,
 			precioAnterior: 120,
-			tallas: [36, 37, 38, 39],
+			tallas: [39, 40, 41, 42, 43],
 		},
 		
 	];
